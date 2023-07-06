@@ -1,0 +1,55 @@
+html {
+    width: 384px;
+    max-width: 384px;
+    background: rgb(23, 23, 23);
+}
+
+body {
+    padding: 16px;
+    width: 384px;
+    max-width: 384px;
+    background: rgb(23, 23, 23);
+}
+
+input, button {
+    border: none;
+    outline: none;
+}
+
+#image {
+    margin-right: 24px;
+}
+
+#header-title {
+    color: white;
+    font-weight: 600;
+    font-size: 36px
+}
+
+#cookie-input {
+    color: white;
+    font-size: 16px;
+    background-color: rgb(38, 38, 38);
+    padding: 8px 12px;
+    border: 2px solid rgb(38, 38, 38);
+    border-radius: 8px;
+    width: 100%;
+    margin-right: 8px;
+}
+
+#cookie-input:hover {
+    border: 2px solid rgb(64, 64, 64);
+}
+
+.panel {
+    padding: 5px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    margin-bottom: 5px;
+}

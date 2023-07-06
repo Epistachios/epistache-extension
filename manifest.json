@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "Epistache",
+    "version": "1.0",
+    "description": "Récupération du token de l'intranet pour Epistache",
+    "icons": {
+        "32": "icons/icon_32.png",
+        "64": "icons/icon_64.png",
+        "128": "icons/icon_128.png"
+    },
+    "permissions": [
+        "cookies",
+        "webRequest",
+        "https://intra.epitech.eu/*"
+    ],
+    "content_scripts": [{
+        "matches": [
+            "https://intra.epitech.eu/*"
+        ]
+    }],
+    "browser_action": {
+        "browser_style": true,
+        "default_title": "Récupération du token de l'intranet pour Epistache",
+        "default_icon": "icons/icon_default.png",
+        "default_popup": "popup.html"
+    }
+}
