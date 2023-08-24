@@ -41,6 +41,21 @@ input, button {
     border: 2px solid rgb(64, 64, 64);
 }
 
+#ls-input {
+    color: white;
+    font-size: 16px;
+    background-color: rgb(38, 38, 38);
+    padding: 8px 12px;
+    border: 2px solid rgb(38, 38, 38);
+    border-radius: 8px;
+    width: 100%;
+    margin-right: 8px;
+}
+
+#ls-input:hover {
+    border: 2px solid rgb(64, 64, 64);
+}
+
 .panel {
     padding: 5px;
 }

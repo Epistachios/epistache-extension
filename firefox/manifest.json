@@ -10,12 +10,18 @@
     },
     "permissions": [
         "tabs",
+        "activeTab",
         "cookies",
+        "storage",
         "https://intra.epitech.eu/*"
     ],
     "content_scripts": [{
         "matches": [
-            "https://intra.epitech.eu/*"
+            "https://intra.epitech.eu/*",
+            "https://my.epitech.eu/*"
+        ],
+        "js": [
+            "js/content.js"
         ]
     }],
     "browser_action": {
